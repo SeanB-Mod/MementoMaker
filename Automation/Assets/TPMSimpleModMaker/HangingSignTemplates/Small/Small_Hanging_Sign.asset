@@ -1,0 +1,588 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7ded6d9f6481fd4fb9ad28257b42788, type: 3}
+  m_Name: Small_Hanging_Sign
+  m_EditorClassIdentifier: 
+  Version: 5
+  BaseArchetypeID: -316190909
+  CustomisationType: 0
+  CustomisationName: 
+  ParentItemCustomisationID: 0
+  ItemCustomisationID: 8321005086943205161
+  ItemIconReference:
+    m_AssetGUID: 83f77b3c316b7a44da1a32341ef570fe
+    m_SubObjectName: Small_Hanging_Sign_Icon
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  ItemName: Small Hanging Sign #SeanB
+  ItemDescription: 
+  ItemModID: 4052346125033010175
+  ItemCost: 100
+  KudoshCost: 15
+  EnvironmentAttributeModifiers: []
+  HasRoomCapacityModifier: 0
+  RoomCapacityModifier:
+    Capacity: 0
+  RoomPowerModifiers: []
+  MeshPrefab:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  HideAllBaseItemMeshes: 0
+  TextureOnlyMod: 0
+  Textures:
+  - MeshName: A_Room_General_Rug_Rectangle_V1_LOD0
+    Texture:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - MeshName: A_Room_General_Rug_Rectangle_V1_LOD1
+    Texture:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  Meshes:
+  - MeshName: A_Room_General_Rug_Rectangle_V1_LOD0
+    HideMeshInGame: 0
+    Mesh:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    MeshReference:
+      m_AssetGUID: f1fc0da3df1f758419c8026028c21680
+      m_SubObjectName: Hanging_Sign_Small_LOD0
+      m_SubObjectType: UnityEngine.Mesh, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 1
+    Materials: []
+    MaterialList:
+    - {fileID: 2100000, guid: af35350588b601849886bf3bad55692c, type: 2}
+    - {fileID: 2100000, guid: 0c753092c1902cb4ea1b2b08863d36d3, type: 2}
+    - {fileID: 2100000, guid: 58e3496bbcdaf8c47b5473979455ade3, type: 2}
+    MaterialsData:
+    - ShaderName: Two Point/Lit
+      SpecialShaderType: 0
+      AlbedoTexture: {fileID: 2800000, guid: 4b1b94f9b461bd442a4365e158f7fc4a, type: 3}
+      AlbedoTextureScale: {x: 1, y: 1}
+      AlbedoTextureOffset: {x: 0, y: 0}
+      NormalTexture: {fileID: 2800000, guid: 5ba13eae653df3e45926f49a561e0707, type: 3}
+      MetallicTexture: {fileID: 0}
+      SmoothnessTexture: {fileID: 0}
+      EmissionTexture: {fileID: 0}
+      TransparencyTexture: {fileID: 0}
+      TintMask1Texture: {fileID: 0}
+      TintMask2Texture: {fileID: 0}
+      TintMask3Texture: {fileID: 0}
+      AlbedoColor: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
+      EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      TintColor1: {r: 0, g: 0, b: 0, a: 1}
+      TintColor2: {r: 0, g: 0, b: 0, a: 1}
+      TintColor3: {r: 0, g: 0, b: 0, a: 1}
+      BlendMode: 0
+      AlphaCutout: 0.5
+      MipMapBias: 0
+      NormalStrength: 1
+      MetallicStrength: 0.809
+      SmoothnessStrength: 0.585
+      RimLightingColor: {r: 0, g: 0, b: 0, a: 1}
+      RimLightingExponent: 1
+      AlbedoTexture2: {fileID: 0}
+      AlbedoTextureScale2: {x: 0, y: 0}
+      AlbedoTextureOffset2: {x: 0, y: 0}
+      DataTexture: {fileID: 0}
+      HeightTexture: {fileID: 0}
+      AlbedoColor2: {r: 0, g: 0, b: 0, a: 0}
+      OcclusionStrength: 0
+      TextureBlend: 0
+      ParallaxStrength: 0
+      BlendSource: 0
+      BlendDestination: 0
+      FresnelPower: 0
+      FresnelStrength: 0
+      FresnelColor: {r: 0, g: 0, b: 0, a: 0}
+      ReflectionIntensity: 0
+      ReflectionOpacity: 0
+      ReflectionBlur: 0
+      RefractionEnabled: 0
+      RefractionIndex: 0
+      SoftParticlesNearFadeDistance: 0
+      SoftParticlesFarFadeDistance: 0
+      CameraNearFadeDistance: 0
+      CameraFarFadeDistance: 0
+      DistortionBlend: 0
+      DistortionStrength: 0
+      SurfaceMap: 0
+      AlphaClip: 0
+      ColorMode: 0
+      FlipbookBlending: 0
+      SoftParticlesEnabled: 0
+      CameraFadingEnabled: 0
+      DistortionEnabled: 0
+      DistortionStrengthScaled: 0
+      BaseColorAndSubDiff: {x: 0, y: 0, z: 0, w: 0}
+      SoftParticleFadeParams: {x: 0, y: 0, z: 0, w: 0}
+      CameraFadeParams: {x: 0, y: 0, z: 0, w: 0}
+      BlendOp: 0
+      SrcBlend: 0
+      DstBlend: 0
+      ZWrite: 0
+      Cull: 0
+      UnderwaterLightingToggle: 0
+    - ShaderName: Two Point/Lit
+      SpecialShaderType: 0
+      AlbedoTexture: {fileID: 2800000, guid: bfd5dedc1ca22db4fb7beb5e296f3b8b, type: 3}
+      AlbedoTextureScale: {x: 1, y: 1}
+      AlbedoTextureOffset: {x: 0, y: 0}
+      NormalTexture: {fileID: 0}
+      MetallicTexture: {fileID: 0}
+      SmoothnessTexture: {fileID: 0}
+      EmissionTexture: {fileID: 0}
+      TransparencyTexture: {fileID: 0}
+      TintMask1Texture: {fileID: 0}
+      TintMask2Texture: {fileID: 0}
+      TintMask3Texture: {fileID: 0}
+      AlbedoColor: {r: 0.25471696, g: 0.25471696, b: 0.25471696, a: 1}
+      EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      TintColor1: {r: 0, g: 0, b: 0, a: 1}
+      TintColor2: {r: 0, g: 0, b: 0, a: 1}
+      TintColor3: {r: 0, g: 0, b: 0, a: 1}
+      BlendMode: 4
+      AlphaCutout: 0.5
+      MipMapBias: 0
+      NormalStrength: 1
+      MetallicStrength: 0.809
+      SmoothnessStrength: 0.585
+      RimLightingColor: {r: 0, g: 0, b: 0, a: 1}
+      RimLightingExponent: 1
+      AlbedoTexture2: {fileID: 0}
+      AlbedoTextureScale2: {x: 0, y: 0}
+      AlbedoTextureOffset2: {x: 0, y: 0}
+      DataTexture: {fileID: 0}
+      HeightTexture: {fileID: 0}
+      AlbedoColor2: {r: 0, g: 0, b: 0, a: 0}
+      OcclusionStrength: 0
+      TextureBlend: 0
+      ParallaxStrength: 0
+      BlendSource: 0
+      BlendDestination: 0
+      FresnelPower: 0
+      FresnelStrength: 0
+      FresnelColor: {r: 0, g: 0, b: 0, a: 0}
+      ReflectionIntensity: 0
+      ReflectionOpacity: 0
+      ReflectionBlur: 0
+      RefractionEnabled: 0
+      RefractionIndex: 0
+      SoftParticlesNearFadeDistance: 0
+      SoftParticlesFarFadeDistance: 0
+      CameraNearFadeDistance: 0
+      CameraFarFadeDistance: 0
+      DistortionBlend: 0
+      DistortionStrength: 0
+      SurfaceMap: 0
+      AlphaClip: 0
+      ColorMode: 0
+      FlipbookBlending: 0
+      SoftParticlesEnabled: 0
+      CameraFadingEnabled: 0
+      DistortionEnabled: 0
+      DistortionStrengthScaled: 0
+      BaseColorAndSubDiff: {x: 0, y: 0, z: 0, w: 0}
+      SoftParticleFadeParams: {x: 0, y: 0, z: 0, w: 0}
+      CameraFadeParams: {x: 0, y: 0, z: 0, w: 0}
+      BlendOp: 0
+      SrcBlend: 0
+      DstBlend: 0
+      ZWrite: 0
+      Cull: 0
+      UnderwaterLightingToggle: 0
+    - ShaderName: Two Point/Lit
+      SpecialShaderType: 0
+      AlbedoTexture: {fileID: 2800000, guid: 2ee07048e72e001419bb7db7169a099a, type: 3}
+      AlbedoTextureScale: {x: 1, y: 1}
+      AlbedoTextureOffset: {x: 0, y: 0}
+      NormalTexture: {fileID: 0}
+      MetallicTexture: {fileID: 0}
+      SmoothnessTexture: {fileID: 0}
+      EmissionTexture: {fileID: 2800000, guid: 2ee07048e72e001419bb7db7169a099a, type: 3}
+      TransparencyTexture: {fileID: 0}
+      TintMask1Texture: {fileID: 0}
+      TintMask2Texture: {fileID: 0}
+      TintMask3Texture: {fileID: 0}
+      AlbedoColor: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
+      EmissionColor: {r: 0.46226412, g: 0.46226412, b: 0.46226412, a: 1}
+      TintColor1: {r: 0, g: 0, b: 0, a: 1}
+      TintColor2: {r: 0, g: 0, b: 0, a: 1}
+      TintColor3: {r: 0, g: 0, b: 0, a: 1}
+      BlendMode: 0
+      AlphaCutout: 0.5
+      MipMapBias: 0
+      NormalStrength: 1
+      MetallicStrength: 0.326
+      SmoothnessStrength: 0.5
+      RimLightingColor: {r: 0, g: 0, b: 0, a: 1}
+      RimLightingExponent: 1
+      AlbedoTexture2: {fileID: 0}
+      AlbedoTextureScale2: {x: 0, y: 0}
+      AlbedoTextureOffset2: {x: 0, y: 0}
+      DataTexture: {fileID: 0}
+      HeightTexture: {fileID: 0}
+      AlbedoColor2: {r: 0, g: 0, b: 0, a: 0}
+      OcclusionStrength: 0
+      TextureBlend: 0
+      ParallaxStrength: 0
+      BlendSource: 0
+      BlendDestination: 0
+      FresnelPower: 0
+      FresnelStrength: 0
+      FresnelColor: {r: 0, g: 0, b: 0, a: 0}
+      ReflectionIntensity: 0
+      ReflectionOpacity: 0
+      ReflectionBlur: 0
+      RefractionEnabled: 0
+      RefractionIndex: 0
+      SoftParticlesNearFadeDistance: 0
+      SoftParticlesFarFadeDistance: 0
+      CameraNearFadeDistance: 0
+      CameraFarFadeDistance: 0
+      DistortionBlend: 0
+      DistortionStrength: 0
+      SurfaceMap: 0
+      AlphaClip: 0
+      ColorMode: 0
+      FlipbookBlending: 0
+      SoftParticlesEnabled: 0
+      CameraFadingEnabled: 0
+      DistortionEnabled: 0
+      DistortionStrengthScaled: 0
+      BaseColorAndSubDiff: {x: 0, y: 0, z: 0, w: 0}
+      SoftParticleFadeParams: {x: 0, y: 0, z: 0, w: 0}
+      CameraFadeParams: {x: 0, y: 0, z: 0, w: 0}
+      BlendOp: 0
+      SrcBlend: 0
+      DstBlend: 0
+      ZWrite: 0
+      Cull: 0
+      UnderwaterLightingToggle: 0
+  - MeshName: A_Room_General_Rug_Rectangle_V1_LOD1
+    HideMeshInGame: 0
+    Mesh:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    MeshReference:
+      m_AssetGUID: f1fc0da3df1f758419c8026028c21680
+      m_SubObjectName: Hanging_Sign_Small_LOD1
+      m_SubObjectType: UnityEngine.Mesh, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 1
+    Materials: []
+    MaterialList:
+    - {fileID: 2100000, guid: af35350588b601849886bf3bad55692c, type: 2}
+    - {fileID: 2100000, guid: 0c753092c1902cb4ea1b2b08863d36d3, type: 2}
+    - {fileID: 2100000, guid: 58e3496bbcdaf8c47b5473979455ade3, type: 2}
+    MaterialsData:
+    - ShaderName: Two Point/Lit
+      SpecialShaderType: 0
+      AlbedoTexture: {fileID: 2800000, guid: 4b1b94f9b461bd442a4365e158f7fc4a, type: 3}
+      AlbedoTextureScale: {x: 1, y: 1}
+      AlbedoTextureOffset: {x: 0, y: 0}
+      NormalTexture: {fileID: 2800000, guid: 5ba13eae653df3e45926f49a561e0707, type: 3}
+      MetallicTexture: {fileID: 0}
+      SmoothnessTexture: {fileID: 0}
+      EmissionTexture: {fileID: 0}
+      TransparencyTexture: {fileID: 0}
+      TintMask1Texture: {fileID: 0}
+      TintMask2Texture: {fileID: 0}
+      TintMask3Texture: {fileID: 0}
+      AlbedoColor: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
+      EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      TintColor1: {r: 0, g: 0, b: 0, a: 1}
+      TintColor2: {r: 0, g: 0, b: 0, a: 1}
+      TintColor3: {r: 0, g: 0, b: 0, a: 1}
+      BlendMode: 0
+      AlphaCutout: 0.5
+      MipMapBias: 0
+      NormalStrength: 1
+      MetallicStrength: 0.809
+      SmoothnessStrength: 0.585
+      RimLightingColor: {r: 0, g: 0, b: 0, a: 1}
+      RimLightingExponent: 1
+      AlbedoTexture2: {fileID: 0}
+      AlbedoTextureScale2: {x: 0, y: 0}
+      AlbedoTextureOffset2: {x: 0, y: 0}
+      DataTexture: {fileID: 0}
+      HeightTexture: {fileID: 0}
+      AlbedoColor2: {r: 0, g: 0, b: 0, a: 0}
+      OcclusionStrength: 0
+      TextureBlend: 0
+      ParallaxStrength: 0
+      BlendSource: 0
+      BlendDestination: 0
+      FresnelPower: 0
+      FresnelStrength: 0
+      FresnelColor: {r: 0, g: 0, b: 0, a: 0}
+      ReflectionIntensity: 0
+      ReflectionOpacity: 0
+      ReflectionBlur: 0
+      RefractionEnabled: 0
+      RefractionIndex: 0
+      SoftParticlesNearFadeDistance: 0
+      SoftParticlesFarFadeDistance: 0
+      CameraNearFadeDistance: 0
+      CameraFarFadeDistance: 0
+      DistortionBlend: 0
+      DistortionStrength: 0
+      SurfaceMap: 0
+      AlphaClip: 0
+      ColorMode: 0
+      FlipbookBlending: 0
+      SoftParticlesEnabled: 0
+      CameraFadingEnabled: 0
+      DistortionEnabled: 0
+      DistortionStrengthScaled: 0
+      BaseColorAndSubDiff: {x: 0, y: 0, z: 0, w: 0}
+      SoftParticleFadeParams: {x: 0, y: 0, z: 0, w: 0}
+      CameraFadeParams: {x: 0, y: 0, z: 0, w: 0}
+      BlendOp: 0
+      SrcBlend: 0
+      DstBlend: 0
+      ZWrite: 0
+      Cull: 0
+      UnderwaterLightingToggle: 0
+    - ShaderName: Two Point/Lit
+      SpecialShaderType: 0
+      AlbedoTexture: {fileID: 2800000, guid: bfd5dedc1ca22db4fb7beb5e296f3b8b, type: 3}
+      AlbedoTextureScale: {x: 1, y: 1}
+      AlbedoTextureOffset: {x: 0, y: 0}
+      NormalTexture: {fileID: 0}
+      MetallicTexture: {fileID: 0}
+      SmoothnessTexture: {fileID: 0}
+      EmissionTexture: {fileID: 0}
+      TransparencyTexture: {fileID: 0}
+      TintMask1Texture: {fileID: 0}
+      TintMask2Texture: {fileID: 0}
+      TintMask3Texture: {fileID: 0}
+      AlbedoColor: {r: 0.25471696, g: 0.25471696, b: 0.25471696, a: 1}
+      EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      TintColor1: {r: 0, g: 0, b: 0, a: 1}
+      TintColor2: {r: 0, g: 0, b: 0, a: 1}
+      TintColor3: {r: 0, g: 0, b: 0, a: 1}
+      BlendMode: 4
+      AlphaCutout: 0.5
+      MipMapBias: 0
+      NormalStrength: 1
+      MetallicStrength: 0.809
+      SmoothnessStrength: 0.585
+      RimLightingColor: {r: 0, g: 0, b: 0, a: 1}
+      RimLightingExponent: 1
+      AlbedoTexture2: {fileID: 0}
+      AlbedoTextureScale2: {x: 0, y: 0}
+      AlbedoTextureOffset2: {x: 0, y: 0}
+      DataTexture: {fileID: 0}
+      HeightTexture: {fileID: 0}
+      AlbedoColor2: {r: 0, g: 0, b: 0, a: 0}
+      OcclusionStrength: 0
+      TextureBlend: 0
+      ParallaxStrength: 0
+      BlendSource: 0
+      BlendDestination: 0
+      FresnelPower: 0
+      FresnelStrength: 0
+      FresnelColor: {r: 0, g: 0, b: 0, a: 0}
+      ReflectionIntensity: 0
+      ReflectionOpacity: 0
+      ReflectionBlur: 0
+      RefractionEnabled: 0
+      RefractionIndex: 0
+      SoftParticlesNearFadeDistance: 0
+      SoftParticlesFarFadeDistance: 0
+      CameraNearFadeDistance: 0
+      CameraFarFadeDistance: 0
+      DistortionBlend: 0
+      DistortionStrength: 0
+      SurfaceMap: 0
+      AlphaClip: 0
+      ColorMode: 0
+      FlipbookBlending: 0
+      SoftParticlesEnabled: 0
+      CameraFadingEnabled: 0
+      DistortionEnabled: 0
+      DistortionStrengthScaled: 0
+      BaseColorAndSubDiff: {x: 0, y: 0, z: 0, w: 0}
+      SoftParticleFadeParams: {x: 0, y: 0, z: 0, w: 0}
+      CameraFadeParams: {x: 0, y: 0, z: 0, w: 0}
+      BlendOp: 0
+      SrcBlend: 0
+      DstBlend: 0
+      ZWrite: 0
+      Cull: 0
+      UnderwaterLightingToggle: 0
+    - ShaderName: Two Point/Lit
+      SpecialShaderType: 0
+      AlbedoTexture: {fileID: 2800000, guid: 2ee07048e72e001419bb7db7169a099a, type: 3}
+      AlbedoTextureScale: {x: 1, y: 1}
+      AlbedoTextureOffset: {x: 0, y: 0}
+      NormalTexture: {fileID: 0}
+      MetallicTexture: {fileID: 0}
+      SmoothnessTexture: {fileID: 0}
+      EmissionTexture: {fileID: 2800000, guid: 2ee07048e72e001419bb7db7169a099a, type: 3}
+      TransparencyTexture: {fileID: 0}
+      TintMask1Texture: {fileID: 0}
+      TintMask2Texture: {fileID: 0}
+      TintMask3Texture: {fileID: 0}
+      AlbedoColor: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
+      EmissionColor: {r: 0.46226412, g: 0.46226412, b: 0.46226412, a: 1}
+      TintColor1: {r: 0, g: 0, b: 0, a: 1}
+      TintColor2: {r: 0, g: 0, b: 0, a: 1}
+      TintColor3: {r: 0, g: 0, b: 0, a: 1}
+      BlendMode: 0
+      AlphaCutout: 0.5
+      MipMapBias: 0
+      NormalStrength: 1
+      MetallicStrength: 0.326
+      SmoothnessStrength: 0.5
+      RimLightingColor: {r: 0, g: 0, b: 0, a: 1}
+      RimLightingExponent: 1
+      AlbedoTexture2: {fileID: 0}
+      AlbedoTextureScale2: {x: 0, y: 0}
+      AlbedoTextureOffset2: {x: 0, y: 0}
+      DataTexture: {fileID: 0}
+      HeightTexture: {fileID: 0}
+      AlbedoColor2: {r: 0, g: 0, b: 0, a: 0}
+      OcclusionStrength: 0
+      TextureBlend: 0
+      ParallaxStrength: 0
+      BlendSource: 0
+      BlendDestination: 0
+      FresnelPower: 0
+      FresnelStrength: 0
+      FresnelColor: {r: 0, g: 0, b: 0, a: 0}
+      ReflectionIntensity: 0
+      ReflectionOpacity: 0
+      ReflectionBlur: 0
+      RefractionEnabled: 0
+      RefractionIndex: 0
+      SoftParticlesNearFadeDistance: 0
+      SoftParticlesFarFadeDistance: 0
+      CameraNearFadeDistance: 0
+      CameraFarFadeDistance: 0
+      DistortionBlend: 0
+      DistortionStrength: 0
+      SurfaceMap: 0
+      AlphaClip: 0
+      ColorMode: 0
+      FlipbookBlending: 0
+      SoftParticlesEnabled: 0
+      CameraFadingEnabled: 0
+      DistortionEnabled: 0
+      DistortionStrengthScaled: 0
+      BaseColorAndSubDiff: {x: 0, y: 0, z: 0, w: 0}
+      SoftParticleFadeParams: {x: 0, y: 0, z: 0, w: 0}
+      CameraFadeParams: {x: 0, y: 0, z: 0, w: 0}
+      BlendOp: 0
+      SrcBlend: 0
+      DstBlend: 0
+      ZWrite: 0
+      Cull: 0
+      UnderwaterLightingToggle: 0
+  UseExistingCustomisationVariants: 1
+  HideAllCustomisationVariantMeshes: 0
+  CustomisationVariantMeshes: []
+  UseExistingRandomVariants: 1
+  HideAllRandomVariantMeshes: 0
+  RandomVariantMeshes: []
+  MaintenanceMaterials:
+    MaterialBrokenAssetRef:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    MaterialBroken: {fileID: 0}
+    MaterialDataBroken:
+      ShaderName: 
+      SpecialShaderType: 0
+      AlbedoTexture: {fileID: 0}
+      AlbedoTextureScale: {x: 0, y: 0}
+      AlbedoTextureOffset: {x: 0, y: 0}
+      NormalTexture: {fileID: 0}
+      MetallicTexture: {fileID: 0}
+      SmoothnessTexture: {fileID: 0}
+      EmissionTexture: {fileID: 0}
+      TransparencyTexture: {fileID: 0}
+      TintMask1Texture: {fileID: 0}
+      TintMask2Texture: {fileID: 0}
+      TintMask3Texture: {fileID: 0}
+      AlbedoColor: {r: 0, g: 0, b: 0, a: 0}
+      EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+      TintColor1: {r: 0, g: 0, b: 0, a: 0}
+      TintColor2: {r: 0, g: 0, b: 0, a: 0}
+      TintColor3: {r: 0, g: 0, b: 0, a: 0}
+      BlendMode: 0
+      AlphaCutout: 0
+      MipMapBias: 0
+      NormalStrength: 0
+      MetallicStrength: 0
+      SmoothnessStrength: 0
+      RimLightingColor: {r: 0, g: 0, b: 0, a: 0}
+      RimLightingExponent: 0
+      AlbedoTexture2: {fileID: 0}
+      AlbedoTextureScale2: {x: 0, y: 0}
+      AlbedoTextureOffset2: {x: 0, y: 0}
+      DataTexture: {fileID: 0}
+      HeightTexture: {fileID: 0}
+      AlbedoColor2: {r: 0, g: 0, b: 0, a: 0}
+      OcclusionStrength: 0
+      TextureBlend: 0
+      ParallaxStrength: 0
+      BlendSource: 0
+      BlendDestination: 0
+      FresnelPower: 0
+      FresnelStrength: 0
+      FresnelColor: {r: 0, g: 0, b: 0, a: 0}
+      ReflectionIntensity: 0
+      ReflectionOpacity: 0
+      ReflectionBlur: 0
+      RefractionEnabled: 0
+      RefractionIndex: 0
+      SoftParticlesNearFadeDistance: 0
+      SoftParticlesFarFadeDistance: 0
+      CameraNearFadeDistance: 0
+      CameraFarFadeDistance: 0
+      DistortionBlend: 0
+      DistortionStrength: 0
+      SurfaceMap: 0
+      AlphaClip: 0
+      ColorMode: 0
+      FlipbookBlending: 0
+      SoftParticlesEnabled: 0
+      CameraFadingEnabled: 0
+      DistortionEnabled: 0
+      DistortionStrengthScaled: 0
+      BaseColorAndSubDiff: {x: 0, y: 0, z: 0, w: 0}
+      SoftParticleFadeParams: {x: 0, y: 0, z: 0, w: 0}
+      CameraFadeParams: {x: 0, y: 0, z: 0, w: 0}
+      BlendOp: 0
+      SrcBlend: 0
+      DstBlend: 0
+      ZWrite: 0
+      Cull: 0
+      UnderwaterLightingToggle: 0
+  EnhancerMaterials: []
+  CurrentItemFilter: Marketing Rectangle Rug
+  CurrentCustomisationItemFilter: 
+  SelectedBySearchFilter: 1
