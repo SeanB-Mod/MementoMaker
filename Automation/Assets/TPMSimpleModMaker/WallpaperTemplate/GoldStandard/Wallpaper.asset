@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd9f30c5372396f40a319b2b99952581, type: 3}
+  m_Name: Wallpaper
+  m_EditorClassIdentifier: 
+  Version: 1
+  Icon: {fileID: 0}
+  IconReference:
+    m_AssetGUID: 42c771fd99f760e47b7481bcdf58ad10
+    m_SubObjectName: Wallpaper_Icon
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 0
+  DisplayName: Wallpaper #SeanB
+  RoomVisualModID: 8544830036362660926
+  Cost: 0
+  KudoshCost: 0
+  CustomisationType: 1
+  Material: {fileID: 2100000, guid: aea5aa3ab853a8542bf76999535f32d3, type: 2}
+  MaterialData:
+    ShaderName: Two Point/Wall
+    SpecialShaderType: 0
+    AlbedoTexture: {fileID: 2800000, guid: d2414bc2141b5b4468438d7cc73f76d9, type: 3}
+    AlbedoTextureScale: {x: 1, y: 1}
+    AlbedoTextureOffset: {x: 0, y: 0}
+    NormalTexture: {fileID: 0}
+    MetallicTexture: {fileID: 0}
+    SmoothnessTexture: {fileID: 0}
+    EmissionTexture: {fileID: 0}
+    TransparencyTexture: {fileID: 0}
+    TintMask1Texture: {fileID: 0}
+    TintMask2Texture: {fileID: 0}
+    TintMask3Texture: {fileID: 0}
+    AlbedoColor: {r: 1, g: 1, b: 1, a: 1}
+    EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    TintColor1: {r: 1, g: 1, b: 1, a: 1}
+    TintColor2: {r: 1, g: 1, b: 1, a: 1}
+    TintColor3: {r: 1, g: 1, b: 1, a: 1}
+    BlendMode: 0
+    AlphaCutout: 0
+    MipMapBias: 0
+    NormalStrength: 1
+    MetallicStrength: 0
+    SmoothnessStrength: 1
+    RimLightingColor: {r: 0, g: 0, b: 0, a: 0}
+    RimLightingExponent: 0
+    AlbedoTexture2: {fileID: 0}
+    AlbedoTextureScale2: {x: 0, y: 0}
+    AlbedoTextureOffset2: {x: 0, y: 0}
+    DataTexture: {fileID: 0}
+    HeightTexture: {fileID: 0}
+    AlbedoColor2: {r: 0, g: 0, b: 0, a: 0}
+    OcclusionStrength: 0
+    TextureBlend: 0
+    ParallaxStrength: 0
+    BlendSource: 0
+    BlendDestination: 0
+    FresnelPower: 0
+    FresnelStrength: 0
+    FresnelColor: {r: 0, g: 0, b: 0, a: 0}
+    ReflectionIntensity: 0
+    ReflectionOpacity: 0
+    ReflectionBlur: 0
+    RefractionEnabled: 0
+    RefractionIndex: 0
+    SoftParticlesNearFadeDistance: 0
+    SoftParticlesFarFadeDistance: 0
+    CameraNearFadeDistance: 0
+    CameraFarFadeDistance: 0
+    DistortionBlend: 0
+    DistortionStrength: 0
+    SurfaceMap: 0
+    AlphaClip: 0
+    ColorMode: 0
+    FlipbookBlending: 0
+    SoftParticlesEnabled: 0
+    CameraFadingEnabled: 0
+    DistortionEnabled: 0
+    DistortionStrengthScaled: 0
+    BaseColorAndSubDiff: {x: 0, y: 0, z: 0, w: 0}
+    SoftParticleFadeParams: {x: 0, y: 0, z: 0, w: 0}
+    CameraFadeParams: {x: 0, y: 0, z: 0, w: 0}
+    BlendOp: 0
+    SrcBlend: 0
+    DstBlend: 0
+    ZWrite: 0
+    Cull: 0
+    UnderwaterLightingToggle: 0
