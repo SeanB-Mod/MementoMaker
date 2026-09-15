@@ -1,0 +1,66 @@
+# Memento Maker repository exclusions
+
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet / local packages
+packages/
+*.nupkg
+
+# Installer / distributable output
+Output/
+InstallerOutput/
+*.exe
+*.msi
+
+# Archives / generated packages
+*.zip
+*.7z
+*.rar
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+Temp/
+Logs/
+
+# Secrets / local environment
+.env
+.env.*
+*.pfx
+*.p12
+*.key
+secrets.*
+credentials.*
+
+# Unity generated folders (if a Unity project is present)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# OS/editor
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
+
+# Do not commit locally extracted game/SDK content.
+# Add project-specific paths here after checking the current source tree.
+
+Add gitignore
