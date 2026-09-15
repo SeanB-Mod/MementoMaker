@@ -1,54 +1,44 @@
 # Memento Maker
 
-Memento Maker is a Windows application designed to make creating, building and publishing mods for **Two Point Museum** easier.
+Memento Maker is an unofficial Windows mod-creation tool for **Two Point Museum**. It provides guided creation, build/install, mod-family/Décor Pack, and Steam Workshop workflows for supported item types without requiring users to work directly in Unity for normal use.
 
-It provides a guided interface around the official Two Point Museum modding workflow, including creating supported item types, preparing artwork, building mods, organising related items into families or Décor Packs, and publishing or updating items on the Steam Workshop.
+**Current source release:** 0.9.9 Beta (`MM099_CANON`)
 
-> Memento Maker is an independent community tool. It is not an official Two Point Studios or SEGA product.
+Created by **SeanB**  
+Developed with assistance from **ChatGPT by OpenAI**.
 
-## Current beta
+Memento Maker is not endorsed by or affiliated with Two Point Studios, SEGA, Valve, or OpenAI.
 
-This repository is intended to provide source visibility and reproducible build information for the public beta of Memento Maker.
+## Why this repository is public
 
-## What Memento Maker does
+The application is distributed as compiled Windows software. This repository makes the application and automation source available for inspection, including for security review by Nexus Mods.
 
-- Creates supported Two Point Museum item mods from user-supplied artwork.
-- Provides artwork positioning controls such as zoom, pan and rotation.
-- Supports item options and variants.
-- Supports combined mod families and Décor/Wallpaper packs.
-- Builds mod content using the supported Two Point Museum modding environment.
-- Assists with Steam Workshop publishing and updating.
-- Provides environment checks for required modding dependencies.
+## Source layout
 
-## Requirements
-
-To build and use all mod-building features, the relevant official Two Point Museum modding components and Unity version are required. See [BUILDING.md](BUILDING.md).
-
-## Source and third-party files
-
-This repository should contain the **Memento Maker source code only**, plus documentation and build scripts/configuration that you have the right to redistribute.
-
-It should **not** contain:
-- Two Point Museum game files.
-- Two Point Museum: Modding SDK files that are not redistributable.
-- Unity installations or Unity-owned binaries.
-- Steam credentials, API keys, passwords or tokens.
-- Generated build output or installer executables.
-
-## Security / Nexus Mods review
-
-The source is published so that services such as Nexus Mods and users can inspect what the compiled application does.
-
-For a reviewer-oriented overview, see [docs/NEXUS_REVIEW.md](docs/NEXUS_REVIEW.md).
+- `src/` — Windows application source (C# / WinForms)
+- `Properties/` — assembly metadata
+- `Automation/` — Memento Maker Unity editor/worker and Steam Workshop automation source
+- `Config/` — application configuration
+- `Theme/` — Memento Maker UI artwork/resources
+- `Installer/` — Inno Setup installer source
+- `MementoMaker.csproj` — .NET Framework 4.8 project
+- `Build_EXE.bat` — executable build script
+- `Build_Installer.bat` — installer build script
 
 ## Building
 
 See [BUILDING.md](BUILDING.md).
 
-## License
+## Runtime template assets
 
-No open-source licence is included in this starter pack. Until you deliberately choose and add a licence, normal copyright rules apply. This lets you make the source visible for inspection without automatically granting broad reuse rights.
+The repository includes the Memento Maker Unity template assets used by the private automation environment. The developer has confirmed that these assets are theirs to distribute.
 
-## Credits
+This allows reviewers to inspect the source and the runtime template content used by the 0.9.9 Beta build.
 
-Developed by SeanB with assistance from ChatGPT by OpenAI.
+## Security review
+
+See [docs/NEXUS_REVIEW.md](docs/NEXUS_REVIEW.md) for a reviewer-oriented description of expected system and network interaction.
+
+## Licence
+
+No open-source licence is granted by this repository unless a licence file is added later. Source visibility is provided for inspection and review; normal copyright rules otherwise apply.

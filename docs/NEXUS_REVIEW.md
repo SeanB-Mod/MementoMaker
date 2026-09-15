@@ -1,42 +1,52 @@
-# Nexus Mods review notes
+# Nexus Mods security review notes
 
-## Purpose
+## Application
 
-Memento Maker is a Windows utility for creating and publishing Two Point Museum mods. It wraps parts of the official modding workflow in a simpler graphical interface.
+Memento Maker 0.9.9 Beta is an unofficial Windows utility for creating, building, installing and publishing Two Point Museum mods.
 
-## Why this repository exists
+The main application is C# / Windows Forms targeting .NET Framework 4.8. The repository also contains Memento Maker's Unity editor/worker C# automation and Steam Workshop automation source.
 
-The downloadable Memento Maker package contains compiled Windows code. This public source repository is provided so Nexus Mods can inspect the application's behaviour and reproduce the build.
+## Expected local system access
 
-## Expected system interaction
+The source shows legitimate local operations including:
 
-Depending on the installed Memento Maker version and feature being used, the application may legitimately:
+- Reading/writing Memento Maker settings, project records, jobs, generated images, build output and support/log data.
+- Reading Windows Registry uninstall/Steam locations to discover Unity Hub and Steam installations.
+- Starting Windows Explorer for user-requested output-folder actions.
+- Starting Unity processes as part of the mod build/worker workflow.
+- Opening prerequisite/help URLs or Steam protocol links when the user chooses those actions.
 
-- Read and write Memento Maker project, settings, artwork, build and log files.
-- Check for required local modding dependencies.
-- Launch or interact with the locally installed Two Point Museum modding/Unity environment as part of building mods.
-- Use Steam/Steam Workshop functionality when the user explicitly chooses publishing or update actions.
-- Create generated mod packages and preview images.
+Memento Maker stores its user-specific working data beneath:
 
-The exact implementation of these behaviours must be verifiable in the source committed to this repository.
+```text
+%LOCALAPPDATA%\MementoMaker\
+```
 
-## Network behaviour
+## Network / external-service behaviour
 
-Before publishing this file, inspect the current source and list every feature that makes a network request or invokes a network-enabled external service.
+The reviewed 0.9.9 source contains these intentional network-enabled interactions:
 
-In particular, document any:
-- Steam / Steam Workshop interaction.
-- Update checking.
-- Web links opened by the application.
-- Download/install helpers.
-- Telemetry or analytics, if any.
+1. **Steam / Steam Workshop** — the Unity-side Workshop source uses Steamworks `SteamUGC` operations to query the user's Workshop items and, when requested, create/update Workshop items, set title/description/tags/visibility/content/previews/metadata, add/remove dependencies, and submit updates.
+2. **Steam Community links** — the application can open a Workshop item page and the Steam Workshop legal agreement in the user's default handler/browser.
+3. **Prerequisite links** — the application can open the Unity Hub download page and the Unity 2020.3.47f1 release page, and can invoke a `steam://` URI for the Two Point Museum: Modding SDK.
+4. **No separate telemetry/analytics implementation was identified by the source scan used to prepare these notes.**
 
-If a category is not used, state that explicitly after verifying the source.
+The application does not need Nexus Mods credentials and no Nexus authentication implementation was identified in the reviewed source.
 
-## Files intentionally not included
+## Installer
 
-Proprietary Two Point Museum, Two Point Museum: Modding SDK, Unity, Steam, or other third-party binaries/assets should not be committed merely to make the repository self-contained. They should be obtained through their official distribution channels.
+Installer source is in:
 
-## Reproducibility
+```text
+Installer/MementoMaker.iss
+```
 
-See [../BUILDING.md](../BUILDING.md) for clean-build instructions.
+The installer requests elevation for installation. The application itself is a normal Windows desktop application. Installer diagnostic logs are designed to be retained under Memento Maker's local application data area.
+
+## Build
+
+See `BUILDING.md`.
+
+## Runtime template assets
+
+The public source repository includes `Automation/Assets/TPMSimpleModMaker/`. The developer has confirmed that the included Memento Maker Unity template assets are theirs to distribute. This gives reviewers access to both the application/automation source and the runtime template content used by the build workflow.

@@ -1,0 +1,188 @@
+﻿MEMENTO MAKER 0.9.9 BETA
+========================
+
+Memento Maker is an unofficial Windows mod-creation tool for Two Point Museum.
+
+Created by SeanB
+Developed with assistance from ChatGPT by OpenAI
+Special thanks to Beta Testers: Kiwiphant & Linelle Kardeen
+
+BETA SOFTWARE
+-------------
+This is a beta release and may contain bugs. Back up important mod source artwork and report unexpected behaviour using Settings > Setup Paths & Maintenance > About & Diagnostics.
+
+Memento Maker requires:
+- Windows
+- Microsoft .NET Framework 4.8
+- Unity 2020.3.47f1
+- The official Two Point Museum ModdingProject.zip SDK
+- Steam running and logged in for Steam Workshop features
+
+The installer does not install Unity or the Two Point Museum Modding SDK. Memento Maker's first-run setup will help locate them after installation.
+
+CHANGE LOG
+----------
+
+Version 0.9.9 Beta
+=================
+- Promoted the validated 0.9.8 canonical baseline to 0.9.9 Beta.
+- Added resilient project and settings persistence with backup recovery.
+- Added one-shot Unity timeout and command-line hardening.
+- Added right-click actions to My Mods for common build, edit and Workshop tasks.
+- Improved Workshop verification so repeated updates avoid unnecessary status checks.
+- Improved Family / Decor Pack Workshop link, unlink and refresh handling.
+
+
+Version 0.9.8 Beta
+==================
+- Implemented Family / Packs modding capabilities
+- Implemented Family / Packs Steam uploads
+- Implemented Steam preview image generation and options
+- Added Wallpapers
+- Implemented ability to add multiple wall papers to a pack. 
+
+
+Version 0.9.7 Beta
+==================
+- Improved installer logging
+- Corrected mapping issue with Mural icon
+- Created standard zoom/rotation and Pan settings per mod family groups
+- Updated rug meshes with correctly scaled UV wrapping
+- Added custom Hanging Sign mods
+- Added custom Wall Sign mods
+- Corrected Item Options icons
+- Corrected options on My Mods when multiple mods selected
+
+Version 0.9.6 Beta
+==================
+- Added requirement for Modders Name. This will include your name in the filename. It'll be shown to users if they have an issue so they can reach out to you. 
+- Improved Item/Artwork controls to allow better Pan/Zoom/Rotation
+- Added Custom Poster Variants for Small and Tall
+- Added Banners for each theme
+- Added Double Banners for each theme (Excluding Digiverse as one doesn't exist in the base game)
+- Added Installer logging
+- Added additional checks on first run. Will now check for SDK, Unity Hub and Unity 2020.3.47f1 and provide download details. 
+- Added additional functionality to Rebuild and Delete multiple mods. 
+- Added Rotation to Image/Artwork
+- Refined Mural Icon
+- Added tool tips
+
+
+Version 0.9.5 Beta
+==================
+- Item Variants
+- Added support for Item Variants, allowing created items to be associated with a parent item and grouped together in the in-game variant selector.
+- Added Variant controls to Memento Maker for configuring a mod's parent relationship.
+- Added Parent information so the selected parent can be clearly identified when reviewing a mod.
+- Added Variant information to My Mods so variant relationships can be viewed and managed after a mod has been created.
+- Positioned the Variant control alongside the Recolourable option in My Mods for a more compact layout.
+- Improved the Variant/Recolourable layout so controls remain consistently positioned when the Recolourable option is not available.
+- Improved the My Mods layout to reduce unnecessary scrolling and keep Workshop information more readily accessible.
+- Updated scrollbars used by the new Variant interfaces to match Memento Maker's themed scrollbar design.
+
+
+Version 0.9.4 Beta
+==================
+Mod Creation
+- Improved rug texture generation so artwork uses the full 1024 × 1024 texture area.
+- Corrected edge and border artefacts affecting Small and Large Rug textures.
+- Improved texture edge handling on rug shapes to prevent unwanted dark or black borders.
+- Updated the Large Octagon Rug mesh.
+- Corrected the Mural item icon shape so generated icons use the intended rounded rectangular mask.
+- Improved the appearance of generated and application icons, including cleaner Kudosh and folder graphics.
+- Corrected the initial artwork/icon state when opening or changing mods.
+- Improved artwork zooming, panning and placement behaviour.
+- Refined the Create Mod artwork area and removed unnecessary visual elements.
+- Added confirmation when starting a New Mod where doing so would clear the current work.
+- Fixed an issue where choosing to keep editing a modified mod could incorrectly discard changes.
+My Mods
+- Improved the My Mods interface, including the Indicators column, sorting controls and action button layout.
+- Refined the Edit and Rebuild actions for clearer positioning and visual distinction.
+Steam Workshop
+- Improved the Steam Workshop publishing window to match the rest of the Memento Maker interface.
+- Changed the default Workshop visibility for new uploads to Hidden to reduce the risk of accidentally publishing unfinished mods publicly.
+- Improved Workshop action availability so actions are only offered when the local mod is in an appropriate state.
+- Improved Workshop link safety and handling when a Workshop item is missing, outdated or already associated with another Memento Maker project.
+- Fixed text truncation and layout issues in the Workshop upload interface.
+Interface
+- Improved themed scrollbars and general interface consistency across dialogs and pages.
+- Standardised action button sizing, typography and panel alignment throughout the application.
+- Corrected several tab, banner and rounded-panel visual artefacts.
+- Improved the Settings page layout and organisation.
+Reliability
+- Improved private Unity environment startup, recovery and automatic repair behaviour.
+- Fixed a private-environment warning that could incorrectly appear during a build.
+- Fixed a rebuild crash caused by unsupported transparent background colours in application dialogs.
+- Improved startup and worker reliability when Unity requires additional time to initialise or refresh its licence.
+
+Version 0.9.3 Beta
+==================
+Steam Workshop
+- Added integrated Steam Workshop publishing directly from Memento Maker.
+- Added support for publishing a mod as a new Steam Workshop item.
+- Added support for updating an existing Workshop item without creating a replacement listing.
+- Added Workshop title, description, visibility, preview image and change-note controls.
+- Added automatic Workshop preview generation using the mod's built Item Icon, with the option to select another image.
+- Added Workshop status synchronisation with the currently signed-in Steam account.
+- Added protection against accidentally updating a Workshop item that cannot be verified against the signed-in account.
+- Added local protection preventing two Memento Maker projects from being actively linked to the same Workshop item.
+- Added Link / Relink Workshop Item support for connecting an existing Steam listing to a Memento Maker project.
+- Added Unlink Workshop Item support for removing the local association without deleting or changing the Steam Workshop item itself.
+Mod Status
+- Added Workshop publication states in My Mods, including Published, Published (old), Not Published and Missing.
+- Added local installation states including Installed, Installed (old) and Not Installed.
+- Added automatic status changes when a saved mod is edited, rebuilt or requires another Workshop upload.
+- Added Workshop action safeguards for mods that have not been rebuilt or whose installed copy is out of date.
+Rebuilding
+- Added support for rebuilding multiple selected mods as a queue while retaining each mod's existing Item Mod ID.
+- Improved rebuild results with success and failure reporting for queued mods.
+Workshop Reliability
+- Added direct access to Workshop pages and Steam Workshop agreement handling after publishing.
+- Improved handling of partially failed Workshop uploads to reduce the risk of creating duplicate Workshop items on a subsequent attempt.
+
+Version 0.9.2 Beta
+==================
+Distribution & Branding
+- Added the branded Memento Maker installer for easier application installation and distribution.
+- Added Memento Maker branding throughout the installer experience.
+- Added high-resolution installer artwork and application imagery.
+- Added the Beta notice and distribution information to the installer.
+- Updated the application to launch maximised by default.
+- Improved application branding and logo presentation throughout the interface.
+- Refined the Settings page branding and layout.
+- Improved application packaging for distribution to Beta testers.
+
+Version 0.9.1 Beta
+==================
+Setup & Maintenance
+- Added Check & Repair for validating and repairing the private Memento Maker Unity environment.
+- Added automatic integrity checks for the private build environment.
+- Added automatic startup repair when required components of the Memento Maker automation are missing or damaged.
+- Improved repair behaviour so the official Two Point Museum SDK is preserved wherever possible.
+- Added detection of SDK changes and warnings when the private build environment needs to be rebuilt.
+- Improved recovery from orphaned or interrupted Unity worker processes.
+- Improved reliability of the persistent Unity build worker.
+- Added version tracking for Memento Maker settings, saved projects and the private environment to support safer future upgrades.
+- Improved environment validation and recovery following interrupted or unsuccessful builds.
+
+Version 0.9.0 Beta
+==================
+- Initial Memento Maker Release
+- Introduced the Memento Maker name and application identity.
+- Added the Memento Maker application logo, executable icon and Windows application metadata.
+- Renamed the distributed executable to MementoMaker.exe.
+- Added the first-run setup experience.
+- Added detection and configuration for Unity 2020.3.47f1.
+- Added setup for the official Two Point Museum Modding Project SDK.
+- Added creation and validation of the private Memento Maker Unity build environment.
+- Added Environment Status information to help identify setup problems before attempting a build.
+- Added About & Diagnostics tools, including the ability to copy diagnostic information and open the application log folder.
+- Updated Memento Maker application data to use its own %LOCALAPPDATA%\MementoMaker\ location.
+- Refined the Settings interface and consolidated setup, paths, maintenance and diagnostic controls under the Memento Maker identity.
+
+
+BRAND / AFFILIATION NOTICE
+--------------------------
+Memento Maker is an unofficial community tool and is not endorsed by or affiliated with Two Point Studios, SEGA, Valve, or OpenAI.
+
+ChatGPT and OpenAI are trademarks of OpenAI. The OpenAI name is included only to disclose the use of ChatGPT assistance during development and does not imply sponsorship or endorsement.

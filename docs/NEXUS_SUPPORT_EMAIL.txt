@@ -1,22 +1,25 @@
-Subject: Memento Maker - quarantined file review
+Subject: Memento Maker 0.9.9 Beta - quarantined file review
 
 Hi,
 
-I'm the developer of Memento Maker, a Windows mod creation and publishing tool for Two Point Museum. My uploaded file has been quarantined by the automated security checks.
+I'm the developer of Memento Maker, a Windows mod creation and publishing tool for Two Point Museum. My 0.9.9 Beta upload has been quarantined by the automated security checks.
 
-The application contains compiled code, so I have made the source code and build instructions available here:
+The application contains compiled code, so I have made the application source, Unity automation source, Steam Workshop automation source, installer source and build instructions publicly available here:
 
 <GITHUB REPOSITORY LINK>
 
 Build instructions:
 <GITHUB REPOSITORY LINK>/blob/main/BUILDING.md
 
+Security/reviewer notes:
+<GITHUB REPOSITORY LINK>/blob/main/docs/NEXUS_REVIEW.md
+
 Nexus Mods page:
 <NEXUS MOD PAGE LINK>
 
-The repository also contains reviewer notes describing the application's expected file-system, dependency and Steam/Workshop interaction.
+The repository includes the Memento Maker source, automation source, installer source, build instructions, and the Memento Maker runtime template assets used by the build workflow.
 
 I'd appreciate it if you could review the quarantined file.
 
 Thanks,
-<YOUR NAME>
+SeanB

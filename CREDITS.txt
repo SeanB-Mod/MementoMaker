@@ -1,0 +1,13 @@
+Memento Maker
+=============
+
+Created by SeanB
+Developed with assistance from ChatGPT by OpenAI
+
+Memento Maker is an unofficial community mod-creation tool for Two Point Museum.
+
+ChatGPT and OpenAI are trademarks of OpenAI. The OpenAI name is included to transparently
+disclose the use of ChatGPT assistance during development. This does not imply that Memento
+Maker is created, sponsored, certified, endorsed, or published by OpenAI.
+
+Memento Maker is not endorsed by or affiliated with Two Point Studios, SEGA, Valve, or OpenAI.

@@ -1,68 +1,96 @@
-# Building Memento Maker
+# Building Memento Maker 0.9.9 Beta
 
-This file should describe how a reviewer can reproduce Memento Maker from source.
+These instructions are based on the `MM099_CANON` source used for Memento Maker 0.9.9 Beta.
 
-## Important
+## Application prerequisites
 
-The exact application build commands depend on the current Memento Maker source project. Before publishing this repository, replace the marked **VERIFY FROM SOURCE** section below using the actual current source tree. Do not guess these commands.
+- Windows
+- Microsoft .NET Framework 4.8
+- The Windows .NET Framework C# compiler (`csc.exe`)
 
-## External prerequisites
+The project targets `.NET Framework 4.8` and `AnyCPU`.
 
-Memento Maker's Two Point Museum mod-building workflow uses:
+## Build the Windows application
 
-1. **Two Point Museum: Modding SDK** — installed through Steam.
-2. **Unity Hub**.
-3. **Unity 2020.3.47f1** — the Unity version specified by the Two Point Museum modding setup documentation.
-4. **Two Point Museum** / Steam where required for testing and Workshop operations.
-
-These external products should be installed separately. Do not copy their proprietary files into this repository.
-
-## Application build
-
-**VERIFY FROM SOURCE BEFORE PUBLISHING**
-
-Add the exact steps required to compile the Memento Maker Windows application here, including:
-
-- Required .NET / SDK / compiler version.
-- Solution or project file to open.
-- Build configuration (for example Release / x64).
-- Exact command or Visual Studio steps.
-- Expected output path.
-- Any source-controlled resources required at build time.
-
-Example layout only — do not publish this example as if it were the real command:
+From the repository root, run:
 
 ```text
-1. Install <exact SDK/toolchain>.
-2. Open <actual solution/project>.
-3. Select <actual configuration>.
-4. Build.
-5. Output is written to <actual output path>.
+Build_EXE.bat
 ```
 
-## Installer build
+The script locates the Microsoft .NET Framework C# compiler under:
 
-If the installer source is included, document the exact Inno Setup script and version used here.
+```text
+%WINDIR%\Microsoft.NET\Framework64\v4.0.30319\csc.exe
+```
 
-Known project convention: the Memento Maker installer is built with Inno Setup. Confirm the exact current script and settings from the source before publishing.
+and falls back to the 32-bit Framework location if required.
 
-## Two Point Museum / Unity worker
+It compiles:
 
-If Memento Maker contains a private Unity worker or generated Unity project content, document:
+```text
+Properties\AssemblyInfo.cs
+src\*.cs
+src\Services\*.cs
+```
 
-- Which files are authored by Memento Maker and are safe to publish.
-- Which files are generated locally from the user's installed SDK/environment.
-- Which external files are intentionally excluded from GitHub.
-- How the worker/project is reconstructed after a clean checkout.
+with references to the standard .NET Framework assemblies used by the application.
 
-This distinction is important for both reproducibility and redistribution rights.
+Expected executable output:
 
-## Clean-build verification
+```text
+dist\MementoMaker.exe
+```
 
-Before sending the repository to Nexus Mods:
+The application can also be built from `MementoMaker.csproj`, which targets .NET Framework 4.8.
 
-1. Download/clone the repository into a new folder.
-2. Follow this document without relying on files from your normal development folder.
-3. Confirm the application compiles.
-4. Confirm any excluded external dependencies are obtained from their official installers.
-5. Confirm the resulting executable corresponds to the version uploaded to Nexus Mods.
+## Build and run
+
+```text
+Build_And_Run.bat
+```
+
+## Installer
+
+The production installer is built with Inno Setup. The canonical build recommends **Inno Setup 7.1.0 x64**.
+
+Installer source:
+
+```text
+Installer\MementoMaker.iss
+```
+
+Production command:
+
+```text
+Build_Installer.bat
+```
+
+Expected production output:
+
+```text
+Installer\Output\MementoMakerSetup_0.9.9_Beta.exe
+```
+
+`Build_Installer.bat` first runs `Build_EXE.bat`, locates Inno Setup's `ISCC.exe`, refreshes the installer splash version, then compiles the `.iss` script.
+
+### Runtime automation assets
+
+The public repository includes the Memento Maker-authored Unity template assets under:
+
+```text
+Automation\Assets\TPMSimpleModMaker\
+```
+
+The developer has confirmed these assets may be redistributed. As a result, the repository contains the runtime template content expected by the production build scripts.
+
+## External runtime prerequisites used by Memento Maker
+
+For actual mod building/publishing, Memento Maker expects the user's separately installed official environment, including:
+
+- Two Point Museum: Modding SDK (Steam)
+- Unity Hub
+- Unity 2020.3.47f1
+- Steam running/logged in for Steam Workshop features
+
+Those third-party products are not included in this repository.
