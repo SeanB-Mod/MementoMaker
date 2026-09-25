@@ -7,8 +7,8 @@ namespace TPMSimpleModMaker
     internal static class AppInfo
     {
         public const string ProductName = "Memento Maker";
-        public const string DisplayVersion = "0.9.9 Beta";
-        public const string FileVersion = "0.9.9.0";
+        public const string DisplayVersion = "0.9.911 Beta";
+        public const string FileVersion = "0.9.911.0";
         public const string CreatorCredit = "Created by SeanB";
         public const string AiAssistanceCredit = "Developed with assistance from ChatGPT by OpenAI";
 
