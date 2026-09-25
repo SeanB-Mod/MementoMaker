@@ -2,7 +2,7 @@
 
 ## Application
 
-Memento Maker 0.9.911 Beta is an unofficial Windows utility for creating, building, installing and publishing Two Point Museum mods.
+Memento Maker 0.9.91 Beta is an unofficial Windows utility for creating, building, installing and publishing Two Point Museum mods.
 
 The main application is C# / Windows Forms targeting .NET Framework 4.8. The repository also contains Memento Maker's Unity editor/worker C# automation and Steam Workshop automation source.
 
