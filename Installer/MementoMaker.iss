@@ -1,6 +1,6 @@
 ﻿#define MyAppName "Memento Maker"
-#define MyAppVersion "0.9.9"
-#define MyAppDisplayVersion "0.9.9 Beta"
+#define MyAppVersion "0.9.91"
+#define MyAppDisplayVersion "0.9.911 Beta"
 #define MyAppExeName "MementoMaker.exe"
 #define MyAppPublisher "SeanB - Developed with assistance from ChatGPT by OpenAI"
 
@@ -17,7 +17,7 @@ PrivilegesRequired=admin
 ArchitecturesAllowed=x64compatible
 ArchitecturesInstallIn64BitMode=x64compatible
 OutputDir=Output
-OutputBaseFilename=MementoMakerSetup_0.9.9_Beta
+OutputBaseFilename=MementoMakerSetup_0.9.91_Beta
 SetupIconFile=..\Theme\MM_Icon.ico
 UninstallDisplayIcon={app}\MementoMaker.exe
 Compression=lzma2
@@ -36,11 +36,11 @@ RestartApplications=no
 SetupLogging=yes
 UsePreviousAppDir=yes
 UsePreviousGroup=yes
-VersionInfoVersion=0.9.9.0
+VersionInfoVersion=0.9.911.0
 VersionInfoCompany={#MyAppPublisher}
 VersionInfoDescription=Memento Maker Setup
 VersionInfoProductName=Memento Maker
-VersionInfoProductVersion=0.9.9.0
+VersionInfoProductVersion=0.9.911.0
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
