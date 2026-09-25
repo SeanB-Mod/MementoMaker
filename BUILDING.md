@@ -1,6 +1,6 @@
-# Building Memento Maker 0.9.911 Beta
+# Building Memento Maker 0.9.91 Beta
 
-These instructions are based on the `MM0991_CANON` source used for Memento Maker 0.9.911 Beta.
+These instructions are based on the `MM0991_CANON` source used for Memento Maker 0.9.91 Beta.
 
 ## Application prerequisites
 
