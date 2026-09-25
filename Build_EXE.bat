@@ -3,7 +3,7 @@ setlocal EnableExtensions
 cd /d "%~dp0"
 set "NOPAUSE="
 if /I "%~1"=="--nopause" set "NOPAUSE=1"
-title Memento Maker 0.9.9 Beta
+title Memento Maker 0.9.911 Beta
 
 set "CSC=%WINDIR%\Microsoft.NET\Framework64\v4.0.30319\csc.exe"
 if not exist "%CSC%" set "CSC=%WINDIR%\Microsoft.NET\Framework\v4.0.30319\csc.exe"
