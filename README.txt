@@ -1,7 +1,7 @@
-﻿Memento Maker 0.9.9 Beta — Canonical Beta Baseline
+﻿Memento Maker 0.9.911 Beta — Canonical Beta Baseline
 ====================================================
 
-Canonical source: MM099_CANON
+Canonical source: MM0991_CANON
 Promoted from MM098_CANON2 after acceptance of the 0.9.8 canonical feature and reliability baseline.
 
 Memento Maker is an unofficial Windows mod-creation tool for Two Point Museum.
@@ -55,7 +55,7 @@ BL-022 WALLPAPER PREVIEW 1
 - My Mods displays Item Type = Decor and Item Options = Wallpaper.
 - Multi-Wallpaper pack creation is deliberately not exposed in this first preview.
 
-0.9.9 BETA HIGHLIGHTS
+0.9.911 BETA HIGHLIGHTS
 ---------------------
 - Added Small/Large Hanging Sign workflows with independent Front/Back artwork.
 - Added Small/Large Wall Sign workflows with independent Front/Back artwork.
@@ -103,7 +103,7 @@ Recommended installer compiler: Inno Setup 7.1.0 x64.
 
 Outputs:
   dist\MementoMaker.exe
-  Installer\Output\MementoMakerSetup_0.9.9_Beta.exe
+  Installer\Output\MementoMakerSetup_0.9.91_Beta.exe
 
 INSTALLER BEHAVIOUR
 -------------------
@@ -118,8 +118,8 @@ logs are stored under:
 
 VERSION / FORMATS
 -----------------
-Application:                Memento Maker 0.9.9 Beta
-Beta testing baseline:      MM099_CANON
+Application:                Memento Maker 0.9.911 Beta
+Beta testing baseline:      MM0991_CANON
 Private Unity automation:   9J-29
 Settings format:            2
 Project format:             7
