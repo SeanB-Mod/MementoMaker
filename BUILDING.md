@@ -1,6 +1,6 @@
-# Building Memento Maker 0.9.9 Beta
+# Building Memento Maker 0.9.911 Beta
 
-These instructions are based on the `MM099_CANON` source used for Memento Maker 0.9.9 Beta.
+These instructions are based on the `MM0991_CANON` source used for Memento Maker 0.9.911 Beta.
 
 ## Application prerequisites
 
@@ -69,7 +69,7 @@ Build_Installer.bat
 Expected production output:
 
 ```text
-Installer\Output\MementoMakerSetup_0.9.9_Beta.exe
+Installer\Output\MementoMakerSetup_0.9.91_Beta.exe
 ```
 
 `Build_Installer.bat` first runs `Build_EXE.bat`, locates Inno Setup's `ISCC.exe`, refreshes the installer splash version, then compiles the `.iss` script.
