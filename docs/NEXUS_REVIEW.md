@@ -2,7 +2,7 @@
 
 ## Application
 
-Memento Maker 0.9.9 Beta is an unofficial Windows utility for creating, building, installing and publishing Two Point Museum mods.
+Memento Maker 0.9.911 Beta is an unofficial Windows utility for creating, building, installing and publishing Two Point Museum mods.
 
 The main application is C# / Windows Forms targeting .NET Framework 4.8. The repository also contains Memento Maker's Unity editor/worker C# automation and Steam Workshop automation source.
 
@@ -24,7 +24,7 @@ Memento Maker stores its user-specific working data beneath:
 
 ## Network / external-service behaviour
 
-The reviewed 0.9.9 source contains these intentional network-enabled interactions:
+The reviewed 0.9.91 source contains these intentional network-enabled interactions:
 
 1. **Steam / Steam Workshop** — the Unity-side Workshop source uses Steamworks `SteamUGC` operations to query the user's Workshop items and, when requested, create/update Workshop items, set title/description/tags/visibility/content/previews/metadata, add/remove dependencies, and submit updates.
 2. **Steam Community links** — the application can open a Workshop item page and the Steam Workshop legal agreement in the user's default handler/browser.
