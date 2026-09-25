@@ -1,4 +1,4 @@
-﻿Memento Maker 0.9.911 Beta — Canonical Beta Baseline
+﻿Memento Maker 0.9.91 Beta — Canonical Beta Baseline
 ====================================================
 
 Canonical source: MM0991_CANON
@@ -55,7 +55,7 @@ BL-022 WALLPAPER PREVIEW 1
 - My Mods displays Item Type = Decor and Item Options = Wallpaper.
 - Multi-Wallpaper pack creation is deliberately not exposed in this first preview.
 
-0.9.911 BETA HIGHLIGHTS
+0.9.91 BETA HIGHLIGHTS
 ---------------------
 - Added Small/Large Hanging Sign workflows with independent Front/Back artwork.
 - Added Small/Large Wall Sign workflows with independent Front/Back artwork.
@@ -118,7 +118,7 @@ logs are stored under:
 
 VERSION / FORMATS
 -----------------
-Application:                Memento Maker 0.9.911 Beta
+Application:                Memento Maker 0.9.91 Beta
 Beta testing baseline:      MM0991_CANON
 Private Unity automation:   9J-29
 Settings format:            2
