@@ -1,6 +1,6 @@
 ﻿#define MyAppName "Memento Maker"
 #define MyAppVersion "0.9.91"
-#define MyAppDisplayVersion "0.9.911 Beta"
+#define MyAppDisplayVersion "0.9.91 Beta"
 #define MyAppExeName "MementoMaker.exe"
 #define MyAppPublisher "SeanB - Developed with assistance from ChatGPT by OpenAI"
 
@@ -36,11 +36,11 @@ RestartApplications=no
 SetupLogging=yes
 UsePreviousAppDir=yes
 UsePreviousGroup=yes
-VersionInfoVersion=0.9.911.0
+VersionInfoVersion=0.9.91.0
 VersionInfoCompany={#MyAppPublisher}
 VersionInfoDescription=Memento Maker Setup
 VersionInfoProductName=Memento Maker
-VersionInfoProductVersion=0.9.911.0
+VersionInfoProductVersion=0.9.91.0
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
