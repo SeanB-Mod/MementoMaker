@@ -2,7 +2,7 @@
 
 Memento Maker is an unofficial Windows mod-creation tool for **Two Point Museum**. It provides guided creation, build/install, mod-family/Décor Pack, and Steam Workshop workflows for supported item types without requiring users to work directly in Unity for normal use.
 
-**Current source release:** 0.9.911 Beta (`MM0991_CANON`)
+**Current source release:** 0.9.91 Beta (`MM0991_CANON`)
 
 Created by **SeanB**  
 Developed with assistance from **ChatGPT by OpenAI**.
@@ -33,7 +33,7 @@ See [BUILDING.md](BUILDING.md).
 
 The repository includes the Memento Maker Unity template assets used by the private automation environment. The developer has confirmed that these assets are theirs to distribute.
 
-This allows reviewers to inspect the source and the runtime template content used by the 0.9.911 Beta build.
+This allows reviewers to inspect the source and the runtime template content used by the 0.9.91 Beta build.
 
 ## Security review
 
