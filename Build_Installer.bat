@@ -1,10 +1,10 @@
 ﻿@echo off
 setlocal EnableExtensions EnableDelayedExpansion
 cd /d "%~dp0"
-title Memento Maker 0.9.9 Beta - Build Installer
+title Memento Maker 0.9.911 Beta - Build Installer
 
 echo ============================================================
-echo MEMENTO MAKER 0.9.9 BETA - RELEASE BUILD
+echo MEMENTO MAKER 0.9.911 BETA - RELEASE BUILD
 echo ============================================================
 echo.
 echo Building Memento Maker...
@@ -117,7 +117,7 @@ echo RELEASE BUILD COMPLETE
 echo ============================================================
 echo.
 echo Installer:
-echo   %CD%\Installer\Output\MementoMakerSetup_0.9.9_Beta.exe
+echo   %CD%\Installer\Output\MementoMakerSetup_0.9.91_Beta.exe
 echo.
 echo Portable application files:
 echo   %CD%\dist\
