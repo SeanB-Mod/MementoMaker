@@ -1,4 +1,4 @@
-﻿MEMENTO MAKER 0.9.911 BETA
+﻿MEMENTO MAKER 0.9.91 BETA
 ========================
 
 Memento Maker is an unofficial Windows mod-creation tool for Two Point Museum.
@@ -23,9 +23,9 @@ The installer does not install Unity or the Two Point Museum Modding SDK. Mement
 CHANGE LOG
 ----------
 
-Version 0.9.911 Beta
+Version 0.9.91 Beta
 =================
-- Promoted the validated 0.9.8 canonical baseline to 0.9.911 Beta.
+- Promoted the validated 0.9.8 canonical baseline to 0.9.91 Beta.
 - Added resilient project and settings persistence with backup recovery.
 - Added one-shot Unity timeout and command-line hardening.
 - Added right-click actions to My Mods for common build, edit and Workshop tasks.
